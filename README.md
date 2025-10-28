@@ -69,6 +69,7 @@ void yyerror(const char *msg) {
 }
 ```
 # OUTPUT
+```
 C:\Dev-Cpp\TDM-GCC-64\bin>flex expr5.l
 
 C:\Dev-Cpp\TDM-GCC-64\bin>bison -dy expr5.y
@@ -89,6 +90,6 @@ C:\Dev-Cpp\TDM-GCC-64\bin>a.exe
 Enter a string (aΓü┐b where n >= 10):
 aab
 Invalid: Less than 10 a's
-
+```
 # RESULT
 The YACC program to recognize the grammar anb where n>=10 is executed successfully and the output is verified.
